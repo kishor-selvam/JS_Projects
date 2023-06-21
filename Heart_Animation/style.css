@@ -6,9 +6,23 @@ body{
 }
 
 span{
+
+    background: url("./assets/Meera.png");
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 18s linear;
+}
+
+h3{
     background: url("https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/heart-256.png");
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     pointer-events: none;
     background-size: cover;
